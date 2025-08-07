@@ -336,7 +336,7 @@ end)
             local ping = string.format('%.0f', game.Stats.Network.ServerStatsItem["Data Ping"]:GetValue())
             local uid = "1"
             local fpsValue = string.split(game.Stats.Workspace.Heartbeat:GetValueString(), ".")[1]
-            WaterMarkLabel.Text = 'Optix.Wtf<font color="rgb(74, 74, 74)"></font> - uid: <font color="rgb(74, 74, 74)">' .. uid .. '</font> / fps: <font color="' .. rainbow .. '">' .. fpsValue .. '</font> / ping: <font color="' .. rainbow .. '">' .. ping .. '</font> / time: <font color="' .. rainbow .. '">' .. time .. '</font>'
+            WaterMarkLabel.Text = 'Eclipse.Remake<font color="rgb(74, 74, 74)"></font> - uid: <font color="rgb(74, 74, 74)">' .. uid .. '</font> / fps: <font color="' .. rainbow .. '">' .. fpsValue .. '</font> / ping: <font color="' .. rainbow .. '">' .. ping .. '</font> / time: <font color="' .. rainbow .. '">' .. time .. '</font>'
         end
     end)    
 end
@@ -445,7 +445,7 @@ end
         TextLabel.BorderSizePixel = 0
         TextLabel.Size = UDim2.new(0, 567, 0, 26)
         TextLabel.Font = Enum.Font.SourceSans
-        TextLabel.Text = "Optix.Wtf | #1"
+        TextLabel.Text = "ECLIPSE | BEST #1"
         TextLabel.TextColor3 = Color3.fromRGB(43, 0, 255)
         TextLabel.TextSize = 14.000
         TextLabel.TextTransparency = 1
